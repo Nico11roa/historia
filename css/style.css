@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+:root{
+    --font-family-titulo: "Bebas Neue", sans-serif;
+    --font-family-texto: "Figtree", sans-serif;
+    --font-family-decorado: "Honk", system-ui;
+}
+
+body{
+    background: #000;
+}
+
+
+
+
+/* titulo */
+.titulo{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.titulo h1{
+    color: #0b99db;
+    text-align: center;
+    font-family: var(--font-family-titulo);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.titulo p{
+    color: #fff;
+    font-family: var(--font-family-texto);
+}
+
+
+/* fila1 */
+.filas{
+    margin-top: 40px;
+}
+
+.filas h2{
+    text-align: center;
+    font-family: var(--font-family-decorado);
+    font-size: 30px;
+}
+
+.columnaf{
+    width: 50%;
+    height: 280px;
+    padding: 0;
+}
+
+.columnaf img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.columnat{
+    
+    width: 50%;
+}
+
+.columnat p{
+    font-size: 15px;
+    color: #fff;
+    font-family: var(--font-family-texto);
+}
+
+#texto-fin{
+    color: #0b99db;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+}
+
+ h4{
+    text-align: center;
+    font-family: var(--font-family-decorado);
+    font-size: 40px;
+}
+
+video{ 
+    width: 100%;
+}
